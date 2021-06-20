@@ -1,6 +1,6 @@
 
 import './App.css';
-import HomePage from './Homapge.component'
+import HomePage from './pages/homepage/Homapge.component'
 function App() {
   return (
     <div>

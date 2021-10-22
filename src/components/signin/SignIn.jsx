@@ -20,6 +20,7 @@ export default class SignIn extends Component {
       await auth.signInWithEmailAndPassword(email,password);
       this.setState({ email: '', password: '' });
     }catch(error){
+      alert('You are not signed up yet');
       console.log(error);
     }
    

@@ -14,33 +14,33 @@ export default class Directory extends Component {
         title:'hats',
         imageUrl:hats,
         id:1,
-        linkUrl:'hats'
+        linkUrl:'shop/hats'
     },
     {
         title:'jackets',
         imageUrl:jackets,
         id:2,
-        linkUrl:''
+        linkUrl:'shop/jackets'
     },
     {
         title:'sneakers',
         imageUrl:sneakers,
         id:3,
-        linkUrl:''
+        linkUrl:'shop/sneakers'
     },
     {
-        title:'men',
+        title:'mens',
         size:'large',
         imageUrl:men,
         id:4,
-        linkUrl:''
+        linkUrl:'shop/mens'
     },
     {
-        title:'women',
+        title:'womens',
         size:'large',
         imageUrl:women,
         id:5,
-        linkUrl:''
+        linkUrl:'shop/womens'
     }]
     }
     render() {
